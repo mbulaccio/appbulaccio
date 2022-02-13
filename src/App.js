@@ -7,15 +7,11 @@ import ItemCount from './components/ItemCount/ItemCount';
 
 function App() {
 
-  const addtoCart = (count) => {
-    console.log(`Se agregan al carrito ${count} productos`);
-
-  };
+  
   return (
     <div className="App">
       <NavBar />
-      <ItemListContainer greeting={"BIENVENIDO A BISTREA SHOP"} />
-      <ItemCount stock={10} initial={0} addtoCart={addtoCart} />
+      <ItemListContainer greeting={"BIENVENIDO A BISTREA SHOP"}/>      
     </div>
   );
 
