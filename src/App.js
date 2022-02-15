@@ -5,19 +5,16 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemCount from './components/ItemCount/ItemCount';
 import Item from './components/Item/Item';
 
+function App() {  
 
-
-function App() {
-
-  
   return (
     <div className="App">
       <NavBar />
       <ItemListContainer greeting={"BIENVENIDO A BISTREA SHOP"}/>
-      <Item />            
+                  
     </div>
   );
-
+  
 }
 
 export default App;

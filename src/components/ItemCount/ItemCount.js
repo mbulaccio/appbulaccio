@@ -1,6 +1,7 @@
 import './ItemCount.css'
 import { useState } from 'react'
 
+
 const ItemCount = ({ stock, initial, addtoCart }) => {
     const [count, setCount] = useState(0);
 
